@@ -29,11 +29,11 @@ func init() {
 	)
 	fmt.Println(dataSourceName)
 	var err error
-	Client, err := sql.Open("mysql", dataSourceName)
+	Client, err = sql.Open("mysql", dataSourceName)
 	if err != nil {
 		panic(err)
 	}
-	if err := Client.Ping(); err != nil {
+	if err = Client.Ping(); err != nil {
 		panic(err)
 	}
 	log.Println("database successfully configured")
