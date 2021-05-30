@@ -14,7 +14,7 @@ const (
 	queryGetUser          = "SELECT id, first_name, last_name, email, date_created, status FROM users WHERE id = ?;"
 	queryUpdateUser       = "UPDATE users SET first_name=?, last_name=?, email=? WHERE id=?;"
 	queryDeleteUser       = "DELETE FROM users WHERE id=?;"
-	queryFindUserByStatus = "SELECT id, first_name, last_name, email, status FROM users WHERE status=?;"
+	queryFindUserByStatus = "SELECT id, first_name, last_name, email, date_created, status FROM users WHERE status=?;"
 )
 
 var (
@@ -108,6 +108,7 @@ func (user *User) FindByStatus(status string) ([]User, *errors.RestErr) {
 		}
 		results = append(results, user)
 	}
+
 	if len(results) == 0 {
 		return nil, errors.NewNotFoundError(fmt.Sprintf("no users matching status %s", status))
 	}
