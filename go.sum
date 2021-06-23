@@ -22,6 +22,8 @@ github.com/json-iterator/go v1.1.9 h1:9yzud/Ht36ygwatGx56VwCZtlI/2AD15T1X2sjSuGn
 github.com/json-iterator/go v1.1.9/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
 github.com/juliandev/bookstore_oauth-go v1.0.3 h1:ggmryFYUUKbyy/Z0l5H3lNNOTG0D6FGTJ8yjczJL4kQ=
 github.com/juliandev/bookstore_oauth-go v1.0.3/go.mod h1:ZjTQF61paRKSLFmCF0sLxYC71NxnD0wwK2P2DMy2TwM=
+github.com/juliandev/bookstore_utils-go v0.0.0-20210623132557-5bed8f3e0fc4 h1:+LiCLyUyR9mbRZihoD3I9FdXfHqwAHS7epWfiU+cIbU=
+github.com/juliandev/bookstore_utils-go v0.0.0-20210623132557-5bed8f3e0fc4/go.mod h1:eiRPbLOA6zGzy6ksnk6eBaU7N2XZzfyLdTw3dTQWlis=
 github.com/leodido/go-urn v1.2.0 h1:hpXL4XnriNwQ/ABnpepYM/1vCLWNDfUNts8dX3xTG6Y=
 github.com/leodido/go-urn v1.2.0/go.mod h1:+8+nEpDfqqsY+g338gtMEUOtuK+4dEMhiQEgxpxOKII=
 github.com/mattn/go-isatty v0.0.12 h1:wuysRhFDzyxgEmMf5xjvJ2M9dZoWAXNNr5LSBS7uHXY=
