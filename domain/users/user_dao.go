@@ -4,7 +4,7 @@ import (
 	"github.com/juliandev/bookstore_utils-go/rest_errors"
 	"github.com/juliandev/bookstore_users-api/datasources/mysql/users_db"
 	"github.com/juliandev/bookstore_users-api/utils/mysql_utils"
-	"github.com/juliandev/bookstore_users-api/logger"
+	"github.com/juliandev/bookstore_utils-go/logger"
 	"strings"
 	"fmt"
 	"errors"
