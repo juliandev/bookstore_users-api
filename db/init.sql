@@ -1,0 +1,14 @@
+CREATE DATABASE users_db;
+
+USER users_db;
+
+CREATE TABLE users (
+id BIGINT(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+first_name VARCHAR(45) NULL,
+last_name VARCHAR(45) NULL,
+email VARCHAR(45) NOT NULL,
+date_created VARCHAR(45) NULL,
+status VARCHAR(45) NOT NULL,
+password VARCHAR(32) NOT NULL
+);
+
